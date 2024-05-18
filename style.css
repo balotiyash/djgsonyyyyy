@@ -68,6 +68,34 @@ nav ul li a:hover::after {
     color: #ff004f;
 }
 
+#updatesDiv {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50px;
+    margin-bottom: 25px;
+    margin-top: -25px;
+    background-color: #31363F;
+    border-radius: 10px ;
+    cursor: pointer;
+    padding: 12px;
+}
+
+#updatesDiv:hover {
+    background-color: #ff004f;
+    transition: 0.5s;
+}
+
+#updateTxt {
+    font-size: large;
+}
+
+#handCursor {
+    margin-left: 10px;
+}
+
 /* about */
 #about {
     /* padding: 80px 0; */
@@ -453,6 +481,10 @@ nav .fa-solid {
     }
     .logo {
         width: 325px;
+    }
+
+    #updatesDiv {
+        width: 100%;
     }
 }
 #msg{
