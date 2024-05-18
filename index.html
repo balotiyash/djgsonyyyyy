@@ -30,7 +30,7 @@
 
             <div class="header-text">
 
-                <div id="updatesDiv" onclick="document.location.href='https:/www.youtube.com/watch?v=egaJYvhmzoo&ab_channel=DJGanesh'">
+                <div id="updatesDiv" onclick="navToYoutube()">
                     <p id="updateTxt">New audio remix out now!!</p>
                     <i id="handCursor" class="fa-solid fa-hand-pointer"></i>
                 </div>
@@ -324,6 +324,10 @@
             })
             .catch(error => console.error('Error!', error.message))
         })
+
+        function navToYoutube() {
+            window.location.href = "https://www.youtube.com/watch?v=egaJYvhmzoo&feature=youtu.be"
+        }
       </script>
 </body>
 </html>
